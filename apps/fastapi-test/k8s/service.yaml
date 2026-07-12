@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fastapi-test-service
+  namespace: fastapi-testspace
+spec:
+  selector:
+    app: fastapi-test-app
+  ports:
+  - port: 80
+    targetPort: 80
+  type: ClusterIP

@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fastapi-test
+  namespace: fastapi-testspace
+  labels:
+    app: fastapi-test-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fastapi-test-app
+  template:
+    metadata:
+      labels:
+        app: fastapi-test-app
+    spec:
+      containers:
+      - name: fastapi-test-app
+        image: fastapi-test-app:latest
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"

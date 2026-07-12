@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: fastapi-test-app
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  source:
+    # IMPORTANT: Replace with your actual GitHub repo URL
+    repoURL: 'https://github.com/CarlosRodriguez260/LocalMonorepoCluster.git'
+    path: apps/fastapi-test/k8s
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: fastapi-testspace
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
