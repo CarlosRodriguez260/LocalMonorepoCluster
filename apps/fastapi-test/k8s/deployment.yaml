@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fastapi-test-app
-        image: fastapi-test-app:latest
+        image: fastapi-test-app:local
         ports:
         - containerPort: 80
         resources:
