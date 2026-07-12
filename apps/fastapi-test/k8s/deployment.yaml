@@ -18,6 +18,7 @@ spec:
       containers:
       - name: fastapi-test-app
         image: fastapi-test:local
+        imagePullPolicit: ifNotPresent
         ports:
         - containerPort: 80
         resources:
