@@ -22,7 +22,7 @@ log_info "✅Prerequisites check passed"
 
 # Step 2: Create Kind cluster
 log_info "Step 2: Creating Kind cluster..."
-kind create cluster --name argocd-cluster --config /cluster-configs/kind/kind-config.yaml
+kind create cluster --name argocd-cluster --config ./cluster-configs/kind/kind-config.yaml
 
 # Step 3: Install Argo CD
 log_info "Step 3: Installing Argo CD..."
