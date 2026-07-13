@@ -1,0 +1,16 @@
+.ContainerBG {
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.5vh;
+    line-height: 1.5;
+    width: min(500px, 100%);
+    overflow: hidden;
+}
+@media (max-width: 768px) { 
+    .ContainerBG {
+        width: min(300px, 100%);
+        font-size: 1.8vh;
+    }
+}

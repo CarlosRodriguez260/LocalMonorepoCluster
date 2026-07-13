@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: petshop-api
+  namespace: petshop-api-testspace
+  labels:
+    app: petshop-api-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: petshop-api-app
+  template:
+    metadata:
+      labels:
+        app: petshop-api-app
+    spec:
+      containers:
+      - name: petshop-api-app
+        image: petshop-api:local
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 4000
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"

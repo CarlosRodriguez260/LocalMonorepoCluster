@@ -1,0 +1,14 @@
+# Build stage
+FROM node:22-alpine AS build
+WORKDIR /app
+
+COPY src/package.json src/package-lock.json ./
+RUN npm ci
+
+COPY src/ .
+RUN npm run build
+
+# Serve stage
+FROM nginx:alpine
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80

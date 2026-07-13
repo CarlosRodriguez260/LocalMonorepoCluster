@@ -1,0 +1,31 @@
+{
+    "grooming": [
+        {
+            "petname": "Aliberto",
+            "petcategory": "Perro",
+            "date": "2025-07-17"
+        },
+        {
+            "petname": "Aliberto",
+            "petcategory": "Perro",
+            "date": "2025-07-24"
+        }
+    ],
+    "employees": [
+        {
+            "firstname": "Adiel",
+            "lastname": "Ortega",
+            "photo": "/EmployeePhotos/adiel_employee.jpg"
+        },
+        {
+            "firstname": "Carolina",
+            "lastname": "Nicole",
+            "photo": "/EmployeePhotos/carolina_employee.png"
+        },
+        {
+            "firstname": "Edgardo",
+            "lastname": "San Miguel",
+            "photo": "/EmployeePhotos/gardi_employee.jpeg"
+        }
+    ]
+}

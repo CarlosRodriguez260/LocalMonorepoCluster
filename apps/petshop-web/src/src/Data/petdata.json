@@ -1,0 +1,320 @@
+{
+    "pets": [
+        {
+            "photo": "/PetPhotos/guimo_roedor.webp",
+            "name": "Guimo",
+            "category": "Roedor",
+            "stock": 4,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/hamster_roedor.jpg",
+            "name": "Hamster",
+            "category": "Roedor",
+            "stock": 4,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Hamster/tatichaqui_hamster.jpg",
+                    "name": "Tatichaqui",
+                    "age": 2,
+                    "price": "$10"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/pezbetta_pez.jpg",
+            "name": "Pez Betta",
+            "category": "Pez",
+            "stock": 17,
+            "list": [
+                {
+                    "photo": "/PetPhotos/PezBetta/azure_pezbetta.jpg",
+                    "name": "Azure",
+                    "age": 1,
+                    "price": "$5"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/conejo_lagomorfo.jpg",
+            "name": "Conejo",
+            "category": "Lagomorfo",
+            "stock": 6,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/periquito_ave.jpg",
+            "name": "Periquito",
+            "category": "Ave",
+            "stock": 3,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/tortuga_reptil.jpg",
+            "name": "Tortuga",
+            "category": "Reptil",
+            "stock": 5,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/gato_mamifero.webp",
+            "name": "Gato",
+            "category": "Mamifero",
+            "stock": 4,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/iguana_reptil.jpg",
+            "name": "Iguana",
+            "category": "Reptil",
+            "stock": 1,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/perro_mamifero.webp",
+            "name": "Perro",
+            "category": "Mamifero",
+            "stock": 4,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/cacatua_ave.jpg",
+            "name": "Cacatua",
+            "category": "Ave",
+            "stock": 2,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        },
+        {
+            "photo": "/PetPhotos/cotorrapr_ave.jpg",
+            "name": "Cotorra Puertorriquena",
+            "category": "Ave",
+            "stock": 0,
+            "list": [
+                {
+                    "photo": "/PetPhotos/Guimos/tulipan_guimo.webp",
+                    "name": "Tulipan",
+                    "age": 2,
+                    "price": "$14"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mestizo_guimo.webp",
+                    "name": "Mestizo",
+                    "age": 3,
+                    "price": "$18"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/rollito_guimo.jpg",
+                    "name": "Rollito",
+                    "age": 1,
+                    "price": "$12"
+                },
+                {
+                    "photo": "/PetPhotos/Guimos/mulato_guimo.jpeg",
+                    "name": "Mulato",
+                    "age": 3,
+                    "price": "$20"
+                }
+            ]
+        }
+    ]
+}

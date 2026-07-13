@@ -1,0 +1,25 @@
+.Grooming {
+    background-color: black;
+    height: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.infoCard {
+    background-color: #202020;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5vh;
+    line-height: 1.5;
+}
+/* mobile */
+@media (max-width: 768px) {
+    .infoCard {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .Grooming{
+        font-size: 0.8rem;
+    }
+}

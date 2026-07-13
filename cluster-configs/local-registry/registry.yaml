@@ -1,0 +1,2 @@
+# For implementing a local registry to push images (similar to services like ACR)
+# Currently, images are pushed directly to clusters through Kind

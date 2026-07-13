@@ -1,0 +1,27 @@
+.Rectangle {
+    width: 22rem;
+    height: 10rem;
+    background-color: #202020;
+    border-radius: 20px;
+    display: flex;
+    font-size: clamp(1rem, 1vw, 1.2rem);
+    font-family: 'Poppins', sans-serif;
+
+    .Textbox{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1vh;
+        padding-left: 0.5vh;
+    }
+}
+@media (max-width: 768px) {
+    .Rectangle {
+        width: 17rem;
+        height: 10rem;
+        font-size: clamp(0.9rem, 0.9vw, 1.1rem)
+    }
+}
