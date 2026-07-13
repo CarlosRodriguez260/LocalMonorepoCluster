@@ -1,6 +1,6 @@
 # Local Monorepo GitOps
 
-Personal project for testing deployment using local k8s deployment and management through Kind, ArgoCD and Kubectl by leveraging a monorepo structure.
+Personal project for testing deployment using local k8s deployment and management through Kind, ArgoCD and Kubectl by leveraging a monorepo structure for app management.
 
 ## Requirements
 
