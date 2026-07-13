@@ -7,4 +7,4 @@ RUN npm ci
 COPY src/ .
 EXPOSE 4000
 
-CMD ["node", "backend/backend.js"]
+CMD ["sh", "-c", "node backend/database_init.js && node backend/backend.js"]
