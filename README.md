@@ -90,6 +90,12 @@ It will persist on whichever terminal you run it. That terminal closes, you will
 - It will deploy all apps through kubectl.
 - Deployed apps can be seen in ArgoCD.
 
+### To expose an app locally:
+
+```
+kubectl port-forward -n <your-app-namespace> service/<your-service-name> <port>:80
+```
+
 ## On Windows
 
 Tested with Docker using WSL2
@@ -98,11 +104,15 @@ Tested with Docker using WSL2
 
 ## On POSIX
 
-Untested
+Untested.
+
+## Needs to be fixed
+
+- `Petshop API <-> Petshop Web App` communication not established yet.
 
 ## Future Additions
 
-- More Apps
-- More Shell Scripts
-- Ingress Controller
+- More Apps.
+- More Shell Scripts.
+- Ingress Controller.
     + Useful for exposing certain apps to the internet.
