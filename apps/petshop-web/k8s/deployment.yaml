@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: petshop-web
-  namespace: petshop-web-testspace
+  namespace: petshop
   labels:
     app: petshop-web-app
 spec:

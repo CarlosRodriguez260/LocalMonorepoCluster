@@ -1,4 +1,5 @@
-# Local Monorepo Cluster
+# Local Monorepo GitOps
+
 Personal project for testing deployment using local k8s deployment and management through Kind, ArgoCD and Kubectl by leveraging a monorepo structure.
 
 ## Requirements
@@ -98,3 +99,10 @@ Tested with Docker using WSL2
 ## On POSIX
 
 Untested
+
+## Future Additions
+
+- More Apps
+- More Shell Scripts
+- Ingress Controller
+    + Useful for exposing certain apps to the internet.

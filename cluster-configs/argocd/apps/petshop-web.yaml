@@ -14,7 +14,7 @@ spec:
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: petshop-web-testspace
+    namespace: petshop
   syncPolicy:
     automated:
       prune: true
