@@ -60,6 +60,17 @@ Each branch can work independently from one another, but the monorepo structure 
     + By default, they point to `main`, such as the fastapi example.
     + ArgoCD uses this as a source of truth when syncing.
 - Checkout the `fastapi-test` app for reference.
+    + This repo also holds a `petshop` app, with separete web-app and api that are in the same namespace.
+- If no Ingress Controller is implemented yet, or you need manual testing, you can port-forward certain apps so they are visible to localhost.
+
+```
+kubectl port-forward -n <namespace-name> service/<service-name> <port-to-serve>:<port-to-listen>
+```
+
+- Example for exposing petshop web-app to localhost:8081
+```
+kubectl port-forward -n petshop service/petshop-web-service 8081:80
+```
 
 ## Workflow
 
@@ -77,6 +88,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
 It will persist on whichever terminal you run it. That terminal closes, you will have to re-run it.
+Once the cluster is up, the next two scripts can be ran independently
 
 ### Next: `build-all.sh`
 
@@ -88,6 +100,7 @@ It will persist on whichever terminal you run it. That terminal closes, you will
 ### Next: `deploy-all.sh`
 
 - It will deploy all apps through kubectl.
+    + This requires the images to be loaded into Kind already.
 - Deployed apps can be seen in ArgoCD.
 
 ### To expose an app locally:
@@ -108,7 +121,7 @@ Untested.
 
 ## Needs to be fixed
 
-- `Petshop API <-> Petshop Web App` communication not established yet.
+Nothing for now.
 
 ## Future Additions
 

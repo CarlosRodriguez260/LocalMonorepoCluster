@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 function NavBar({playAnim}) {
-    const API_SERVICE_URL = 'http://petshop-api-service:4000';
+    const API_SERVICE_URL = '/api';
     const navigate = useNavigate();
     const [signUpPrompt, setSignUpPrompt] = useState(false);
     const [logInPrompt, setLogInPrompt] = useState(false);
@@ -80,7 +80,7 @@ function NavBar({playAnim}) {
                             </div>
                             <button className="button1" onClick={() => {
                                 const logData = {'email': email, 'password': password};
-                                fetch(API_SERVICE_URL, {
+                                fetch(API_SERVICE_URL + '/login', {
                                     method: 'POST',
                                     headers: {
                                         'Content-Type': 'application/json',
@@ -148,7 +148,7 @@ function NavBar({playAnim}) {
                             </div>
                             <button className="button1" onClick={() => {
                                 const signData = {'firstName': firstName, 'lastName': lastName, 'email': email, 'password': password};
-                                fetch('http://localhost:4000/signup', {
+                                fetch(API_SERVICE_URL + '/signup', {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify(signData),
